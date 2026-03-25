@@ -9,6 +9,7 @@
       "Courier New", monospace;
     --color-red-500: oklch(63.7% 0.237 25.331);
     --color-amber-50: oklch(98.7% 0.022 95.277);
+    --color-gray-300: oklch(87.2% 0.01 258.338);
     --color-gray-400: oklch(70.7% 0.022 261.325);
     --color-gray-500: oklch(55.1% 0.027 264.364);
     --color-black: #000;
@@ -254,6 +255,18 @@
   .z-10 {
     z-index: 10;
   }
+  .mt-2 {
+    margin-top: calc(var(--spacing) * 2);
+  }
+  .mt-2\.5 {
+    margin-top: calc(var(--spacing) * 2.5);
+  }
+  .mt-12 {
+    margin-top: calc(var(--spacing) * 12);
+  }
+  .mt-12\.5 {
+    margin-top: calc(var(--spacing) * 12.5);
+  }
   .mt-\[5px\] {
     margin-top: 5px;
   }
@@ -292,6 +305,18 @@
   }
   .mr-\[5px\] {
     margin-right: 5px;
+  }
+  .mr-\[50px\] {
+    margin-right: 50px;
+  }
+  .mr-\[100px\] {
+    margin-right: 100px;
+  }
+  .mr-\[150px\] {
+    margin-right: 150px;
+  }
+  .mb-\[10px\] {
+    margin-bottom: 10px;
   }
   .ml-\[20px\] {
     margin-left: 20px;
@@ -542,6 +567,9 @@
   .py-\[20px\] {
     padding-block: 20px;
   }
+  .py-\[30px\] {
+    padding-block: 30px;
+  }
   .pt-\[10px\] {
     padding-top: 10px;
   }
@@ -562,6 +590,9 @@
   }
   .pl-\[20px\] {
     padding-left: 20px;
+  }
+  .text-center {
+    text-align: center;
   }
   .text-2xl {
     font-size: var(--text-2xl);
@@ -590,6 +621,9 @@
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
+  }
+  .text-gray-300 {
+    color: var(--color-gray-300);
   }
   .text-gray-500 {
     color: var(--color-gray-500);
@@ -707,6 +741,16 @@
   .lg\:mr-\[100px\] {
     @media (width >= 64rem) {
       margin-right: 100px;
+    }
+  }
+  .lg\:mr-\[150px\] {
+    @media (width >= 64rem) {
+      margin-right: 150px;
+    }
+  }
+  .lg\:mr-\[250px\] {
+    @media (width >= 64rem) {
+      margin-right: 250px;
     }
   }
   .lg\:ml-\[40px\] {
